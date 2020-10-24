@@ -4,10 +4,11 @@ using namespace std;
 int main()
 {
     setlocale(0, "");
-    double param;
+    double param,z;
     cout << "Введите степень: ";
     cin >> param;
-    cout << "Экспонента числа " << param << " = " << exp(param) << endl; 
+    z = exp(param);
+    cout << "Экспонента числа " << param << " = " << z << endl; 
     system("pause");
     return 0;
 }
